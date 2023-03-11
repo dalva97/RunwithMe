@@ -6,10 +6,16 @@ namespace RunwithMe
 {
     internal class Program
     {
+        public string AddTimestamp()
+        {
+            return " - " + DateTime.Now;
+        }
+
         static void Main(string[] args)
         {
             var responseDidTheyRun = new Char();
             var run = new Run();
+            var errorloggingpath = "/Users/DulceAlvarado/Desktop/Log.txt";
 
             try
             {
@@ -21,8 +27,9 @@ namespace RunwithMe
             catch (FormatException e)
             {
                 Console.WriteLine(e.Message);
+                File.AppendAllText(errorloggingpath, e.Message);
             }
-            
+
             if (responseDidTheyRun == 'y')
             {
                 run.Ran = true;
@@ -36,6 +43,7 @@ namespace RunwithMe
             else
             {
                 Console.WriteLine("You entered an invalid option, logging error and quitting");
+                File.AppendAllText(errorloggingpath, "User entered a " + responseDidTheyRun + ", was an invalid character");
                 return;
             }
 
@@ -46,16 +54,27 @@ namespace RunwithMe
             if (decimal.TryParse(responseHowFarRan, out decimal howFarRan))
             {
                 Console.WriteLine("You entered an invalid option, logging error and quitting");
+                File.AppendAllText(errorloggingpath, "User entered a" + responseHowFarRan + ", was an invalid character");
                 return;
             }
             run.Distance = howFarRan;
+
+            int miles = 1;
+            while (miles <= 5)
+            {
+                Console.WriteLine(miles);
+                miles++;
+                if (miles > 5)
+                    break;
+            }
 
             Console.WriteLine("How long did it take you to run?");
             if (!TimeSpan.TryParse(Console.ReadLine(), out TimeSpan HowLongRan))
             {
                 Console.WriteLine("You entered an invalid option, logging error and quitting");
+                File.AppendAllText(errorloggingpath, "User entered a" + HowLongRan + ", was an invalid character");
                 return;
-            }
+            
             run.Duration = HowLongRan;
 
             Console.WriteLine("Ran: = + run.Ran");
@@ -63,5 +82,6 @@ namespace RunwithMe
             Console.WriteLine("Duration:" + run.Duration);
 
         }
-    }
-}
+        
+
+
