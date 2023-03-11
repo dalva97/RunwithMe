@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 
 namespace RunwithMe
 {
@@ -6,11 +8,21 @@ namespace RunwithMe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to RunwithMe!");
-            Console.WriteLine("\tDid you run today? Y/N");
-            var responseDidTheyRun = Console.ReadKey().KeyChar;
+            var responseDidTheyRun = new Char();
             var run = new Run();
 
+            try
+            {
+                Console.WriteLine("Welcome to RunwithMe!");
+                Console.WriteLine("\tDid you run today? Y/N");
+                responseDidTheyRun = Console.ReadKey().KeyChar;
+                
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
             if (responseDidTheyRun == 'y')
             {
                 run.Ran = true;
@@ -24,7 +36,6 @@ namespace RunwithMe
             else
             {
                 Console.WriteLine("You entered an invalid option, logging error and quitting");
-                //Log error to txt file
                 return;
             }
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/DulceAlvarado/Projects/RunwithMe/RunwithMe.csproj",
+      "projectUniqueName": "/Users/DulceAlvarado/Desktop/Repos/RunwithMe/RunwithMe.csproj",
       "projectName": "RunwithMe",
-      "projectPath": "/Users/DulceAlvarado/Projects/RunwithMe/RunwithMe.csproj",
+      "projectPath": "/Users/DulceAlvarado/Desktop/Repos/RunwithMe/RunwithMe.csproj",
       "packagesPath": "/Users/DulceAlvarado/.nuget/packages/",
-      "outputPath": "/Users/DulceAlvarado/Projects/RunwithMe/obj/",
+      "outputPath": "/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/DulceAlvarado/.nuget/NuGet/NuGet.Config"

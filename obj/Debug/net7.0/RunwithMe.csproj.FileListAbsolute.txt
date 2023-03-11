@@ -1,0 +1,15 @@
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.csproj.AssemblyReference.cache
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.AssemblyInfoInputs.cache
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.AssemblyInfo.cs
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.csproj.CoreCompileInputs.cache
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/bin/Debug/net7.0/RunwithMe
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/bin/Debug/net7.0/RunwithMe.deps.json
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/bin/Debug/net7.0/RunwithMe.runtimeconfig.json
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/bin/Debug/net7.0/RunwithMe.dll
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/bin/Debug/net7.0/RunwithMe.pdb
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.dll
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/refint/RunwithMe.dll
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.pdb
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/RunwithMe.genruntimeconfig.cache
+/Users/DulceAlvarado/Desktop/Repos/RunwithMe/obj/Debug/net7.0/ref/RunwithMe.dll
